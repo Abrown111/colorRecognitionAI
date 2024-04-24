@@ -24,4 +24,4 @@ for i in range(120):
 
     new_image = Image.fromarray(nparray)
     file_string = f'#{red_string}{green_string}{blue_string}'
-    new_image.save(f'C:/Users/alebr/Documents/PixelPictures/testpics/{file_string}.png')
+    new_image.save(f'C:/Users//{file_string}.png') # Input desired location
